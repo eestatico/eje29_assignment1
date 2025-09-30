@@ -64,6 +64,7 @@ Throughout the site, I incorporated:
 - Layout helpers: `<div>` and `<span>` with class attributes for targeted styling  
 
 Validated using the [W3C HTML Validator](https://validator.w3.org/).  
+<img width="1646" height="1068" alt="image" src="https://github.com/user-attachments/assets/3320efed-3629-4e12-9e34-c8eddd516b9a" />
 
 ---
 
@@ -77,6 +78,7 @@ I applied consistent styling across the website to improve the design and usabil
 - Footer: Dark background with white centered text.  
 
 Validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).  
+<img width="3206" height="604" alt="image" src="https://github.com/user-attachments/assets/a1d1f348-a3bf-418f-92f4-bbe26e760fca" />
 
 ---
 
