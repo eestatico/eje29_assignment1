@@ -1,0 +1,142 @@
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: black;
+    background-color: floralwhite;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    padding: 24px 16px;
+  }
+  
+  /* Navigation (sticky, horizontal) */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: gold;
+    color: black;
+  }
+  
+  nav ul li a:visited {
+    color: gainsboro;
+  }
+  
+  nav ul li a.active {
+    background-color: darkorange;
+    color: black;
+  }
+  
+  /* Main content card */
+  main {
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px gray;
+  }
+  
+  /* Headings for a food vibe */
+  h1, h2 {
+    color: saddlebrown;
+  }
+  
+  /* Image styling (centered, framed) */
+  img {
+    display: block;
+    margin: 16px auto;
+    max-width: 100%;
+    height: auto;
+    border: 6px solid wheat;
+    border-radius: 16px;
+    box-shadow: 0 10px 24px gray;
+  }
+  
+  /* Lists */
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin: 6px 0;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    background-color: white;
+  }
+  
+  table th, table td {
+    border: 1px solid slategray;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table thead th {
+    background-color: lemonchiffon;
+    color: black;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-top: 24px;
+  }
+
+  .inverted {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  .inverted header,
+  .inverted footer {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .inverted nav ul {
+    background-color: #333;
+  }
+  
+  .inverted table {
+    background-color: #1a1a1a;
+    border-color: #555;
+  }
+  
+  
